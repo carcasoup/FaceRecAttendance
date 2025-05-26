@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# SQLite БД
+server/attendance.db
+
+# FAISS-индекс и мета-данные
+server/models/face_index.faiss
+server/models/label_map.pkl
+server/models/label_map_labels.npy
+
+# Папка с собранными эмбеддингами (если есть)
+# embeddings/
+
+# OS файлы
+.DS_Store
+Thumbs.db
+
+# Печатные файлы IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# Python env files
+.env
+.env.*.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
